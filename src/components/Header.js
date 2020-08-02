@@ -49,7 +49,7 @@ function Header() {
                <div className="header-option-basket">
                   <ShoppingBasketIcon />
                   <span className="header-option-line-2 header-basket-count">
-                     {basket.length}
+                     {basket?.length}
                   </span>
                </div>
             </Link>

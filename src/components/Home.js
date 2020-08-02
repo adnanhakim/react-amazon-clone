@@ -13,7 +13,7 @@ function Home() {
 
          <div className="home-row">
             <Product
-               id="12345"
+               id="28492188"
                title="Apple MacBook Pro (16-inch, 16GB RAM, 512GB Storage, 2.6GHz 9th Gen Intel Core i7) - Space Grey"
                price={189905}
                rating={4.2}
@@ -21,7 +21,7 @@ function Home() {
             />
 
             <Product
-               id="12345"
+               id="9248294"
                title="Skullcandy Venue ANC Over-Ear Headphones Wireless (Moab/Red/Black) with Active Noise Cancellation "
                price={11999}
                rating={4.3}
@@ -31,21 +31,21 @@ function Home() {
 
          <div className="home-row">
             <Product
-               id="12345"
+               id="49789128"
                title="Apple AirPods with Wireless Charging Case"
                price={23900}
                rating={4.2}
                image="https://m.media-amazon.com/images/I/71IPFP9WJIL._AC_UY327_FMwebp_QL65_.jpg"
             />
             <Product
-               id="12345"
+               id="20984042"
                title="Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage)"
                price={55999}
                rating={4.3}
                image="https://m.media-amazon.com/images/I/61fv4VZRQ7L._AC_UY327_FMwebp_QL65_.jpg"
             />
             <Product
-               id="12345"
+               id="32789123"
                title="GoPro Hero 8 Black CHDHX-801 12 MP Action Camera"
                price={34191}
                rating={4.3}
