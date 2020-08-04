@@ -1,22 +1,5 @@
 export const initialState = {
-   basket: [
-      {
-         id: '20984042',
-         title: 'Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage)',
-         price: 55999,
-         rating: 4.3,
-         image:
-            'https://m.media-amazon.com/images/I/61fv4VZRQ7L._AC_UY327_FMwebp_QL65_.jpg',
-      },
-      {
-         id: '20984042',
-         title: 'Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage)',
-         price: 55999,
-         rating: 4.3,
-         image:
-            'https://m.media-amazon.com/images/I/61fv4VZRQ7L._AC_UY327_FMwebp_QL65_.jpg',
-      },
-   ],
+   basket: [],
    user: null,
 };
 
@@ -26,6 +9,12 @@ export const getBasketTotal = (basket) =>
 function reducer(state, action) {
    console.log(action);
    switch (action.type) {
+      case 'SET_USER':
+         // Adding user
+         return {
+            ...state,
+            user: action.user,
+         };
       case 'ADD_TO_BASKET':
          // Adding item to basket
          return {
