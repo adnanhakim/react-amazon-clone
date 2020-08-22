@@ -2,7 +2,7 @@
 
 ## About
 
-A Amazon clone web application created using React and Firebase.
+An Amazon clone web application created using React and Firebase.
 
 Includes user authentication capabilties bundled with Firebase Authentication and React Router, and fully functioning cart functionalities.
 
